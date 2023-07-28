@@ -1,4 +1,4 @@
-# immo_eliza_API# Immo Eliza Project: Property Value Estimation
+# Immo Eliza Project: Property Value Estimation
 
 ## Description
 
@@ -27,19 +27,19 @@ In the final part, it was deployed the AI model as an API using FastAPI and it w
 1. Clone the Repository: first, clone the project repository to your local machine.
 2. Build a Docker Image: open a terminal or command prompt and navigate to the directory containing the Dockerfile. Run the following command to build the Docker image: docker build . -t api_predict
 3. Run Docker Container: after building the Docker image, execute the following command to run the Docker container: docker run -p 8000:8000 api_predict
-4. Access API Documentation: On the terminal the following line will be displayed: INFO: Uvicorn running on http://0.0.0.0:8000
-Open a web browser and paste the provided link http://0.0.0.0:8000 into the address bar.
+4. Access API Documentation: On the terminal the following line will be displayed: INFO: Uvicorn running on <http://0.0.0.0:8000>
+Open a web browser and paste the provided link <http://0.0.0.0:8000> into the address bar.
 5. Explore API Endpoints: Through this link the documentation for the API is accessed where all available routes and endpoints are outlined.
-6. Access Interactive Swagger Page: Update the link to http://0.0.0.0:8000/docs in the address bar of your web browser.
+6. Access Interactive Swagger Page: Update the link to <http://0.0.0.0:8000/docs> in the address bar of your web browser.
 7. Perform Property Value Estimation: On the Swagger page, locate the POST route for the prediction endpoint. Click on "Try it out."
 8. Modify Input Data: Modify the JSON input dictionary with property details accordingly. Replace the example data with specific property information.
 9. Execute Prediction: Click on "Execute" to submit the modified JSON input and receive the property value prediction.
 
 ## Step-by-Step Instructions Accessing the Property Value Estimation App
 
-1. Access the Deployed App: No need to create an image or container! Click on the following link to directly access the deployed Property Value Estimation App: https://immo-prediction-api.onrender.com/
+1. Access the Deployed App: No need to create an image or container! Click on the following link to directly access the deployed Property Value Estimation App: <https://immo-prediction-api.onrender.com/>
 2. Explore API Endpoints: Upon accessing the link, the documentation for the API can be found. This documentation outlines all available routes and endpoints.
-3. Access Interactive Swagger Page: Update the link to https://immo-prediction-api.onrender.com/docs in the address bar of your web browser.
+3. Access Interactive Swagger Page: Update the link to <https://immo-prediction-api.onrender.com/docs> in the address bar of your web browser.
 4. Perform Property Value Estimation: On the Swagger page, locate the POST route for the prediction endpoint. Click on "Try it out."
 5. Modify Input Data: Modify the JSON input dictionary with property details accordingly. Replace the example data with specific property information.
 6. Execute Prediction: Click on "Execute" to submit the modified JSON input and receive the property value prediction.
