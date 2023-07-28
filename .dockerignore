@@ -1,0 +1,5 @@
+venv
+*_pycache_/
+*_pycache_*
+request.py
+src/predict.py
